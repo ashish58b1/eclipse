@@ -11,7 +11,7 @@ public class LoginTest {
 	public static void main(String[] args) {
 		
 		WebDriver driver = new FirefoxDriver();
-		driver.manage().deleteAllCookies();
+		
 		driver.get("http://fv3test.azurewebsites.net/login");
 	
 		//driver.manage().window().maximize();
